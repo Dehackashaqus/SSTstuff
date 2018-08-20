@@ -1,0 +1,183 @@
+(pcb C:\Users\Aaron\Documents\PotBreakout\PotBreakout.dsn
+  (parser
+    (string_quote ")
+    (space_in_quoted_tokens on)
+    (host_cad "KiCad's Pcbnew")
+    (host_version "4.0.7")
+  )
+  (resolution um 10)
+  (unit um)
+  (structure
+    (layer F.Cu
+      (type signal)
+      (property
+        (index 0)
+      )
+    )
+    (layer B.Cu
+      (type signal)
+      (property
+        (index 1)
+      )
+    )
+    (boundary
+      (path pcb 0  142240 -82550  142240 -113030  166370 -113030  166370 -92710
+            160020 -86360  160020 -82550  142240 -82550  142240 -82550)
+    )
+    (via "Via[0-1]_600:400_um")
+    (rule
+      (width 250)
+      (clearance 200.1)
+      (clearance 200.1 (type default_smd))
+      (clearance 50 (type smd_smd))
+    )
+  )
+  (placement
+    (component Pin_Headers:Pin_Header_Straight_2x07_Pitch2.54mm
+      (place J1 161290 -95250 front 0 (PN Conn_02x07_Odd_Even))
+    )
+    (component GTR183:PotFP
+      (place U1 148501 -105004 front 0 (PN PDB183GTR21))
+    )
+  )
+  (library
+    (image Pin_Headers:Pin_Header_Straight_2x07_Pitch2.54mm
+      (outline (path signal 100  0 1270  3810 1270))
+      (outline (path signal 100  3810 1270  3810 -16510))
+      (outline (path signal 100  3810 -16510  -1270 -16510))
+      (outline (path signal 100  -1270 -16510  -1270 0))
+      (outline (path signal 100  -1270 0  0 1270))
+      (outline (path signal 120  -1330 -16570  3870 -16570))
+      (outline (path signal 120  -1330 -1270  -1330 -16570))
+      (outline (path signal 120  3870 1330  3870 -16570))
+      (outline (path signal 120  -1330 -1270  1270 -1270))
+      (outline (path signal 120  1270 -1270  1270 1330))
+      (outline (path signal 120  1270 1330  3870 1330))
+      (outline (path signal 120  -1330 0  -1330 1330))
+      (outline (path signal 120  -1330 1330  0 1330))
+      (outline (path signal 50  -1800 1800  -1800 -17050))
+      (outline (path signal 50  -1800 -17050  4350 -17050))
+      (outline (path signal 50  4350 -17050  4350 1800))
+      (outline (path signal 50  4350 1800  -1800 1800))
+      (pin Rect[A]Pad_1700x1700_um 1 0 0)
+      (pin Oval[A]Pad_1700x1700_um 2 2540 0)
+      (pin Oval[A]Pad_1700x1700_um 3 0 -2540)
+      (pin Oval[A]Pad_1700x1700_um 4 2540 -2540)
+      (pin Oval[A]Pad_1700x1700_um 5 0 -5080)
+      (pin Oval[A]Pad_1700x1700_um 6 2540 -5080)
+      (pin Oval[A]Pad_1700x1700_um 7 0 -7620)
+      (pin Oval[A]Pad_1700x1700_um 8 2540 -7620)
+      (pin Oval[A]Pad_1700x1700_um 9 0 -10160)
+      (pin Oval[A]Pad_1700x1700_um 10 2540 -10160)
+      (pin Oval[A]Pad_1700x1700_um 11 0 -12700)
+      (pin Oval[A]Pad_1700x1700_um 12 2540 -12700)
+      (pin Oval[A]Pad_1700x1700_um 13 0 -15240)
+      (pin Oval[A]Pad_1700x1700_um 14 2540 -15240)
+    )
+    (image GTR183:PotFP
+      (outline (path signal 150  -6000 22000  11000 22000))
+      (outline (path signal 150  11000 22000  11000 -7000))
+      (outline (path signal 150  11000 -7000  -6000 -7000))
+      (outline (path signal 150  -6000 -7000  -6000 22000))
+      (pin Round[A]Pad_2800_um 7 0 8000)
+      (pin Round[A]Pad_2800_um 8 0 4000)
+      (pin Round[A]Pad_2800_um 9 0 0)
+      (pin Round[A]Pad_2800_um 10 5000 8000)
+      (pin Round[A]Pad_2800_um 11 5000 4000)
+      (pin Round[A]Pad_2800_um 12 5000 0)
+      (pin Round[A]Pad_4500_um 4 -2500 13000)
+      (pin Round[A]Pad_4500_um 1 -2500 19000)
+      (pin Round[A]Pad_4500_um 3 7500 19000)
+      (pin Round[A]Pad_4500_um 5 2500 13000)
+      (pin Round[A]Pad_4500_um 6 7500 13000)
+      (pin Round[A]Pad_4500_um 2 2500 19000)
+      (pin Round[A]Pad_3900_um 13 2500 -4000)
+    )
+    (padstack Round[A]Pad_2800_um
+      (shape (circle F.Cu 2800))
+      (shape (circle B.Cu 2800))
+      (attach off)
+    )
+    (padstack Round[A]Pad_3900_um
+      (shape (circle F.Cu 3900))
+      (shape (circle B.Cu 3900))
+      (attach off)
+    )
+    (padstack Round[A]Pad_4500_um
+      (shape (circle F.Cu 4500))
+      (shape (circle B.Cu 4500))
+      (attach off)
+    )
+    (padstack Oval[A]Pad_1700x1700_um
+      (shape (path F.Cu 1700  0 0  0 0))
+      (shape (path B.Cu 1700  0 0  0 0))
+      (attach off)
+    )
+    (padstack Rect[A]Pad_1700x1700_um
+      (shape (rect F.Cu -850 -850 850 850))
+      (shape (rect B.Cu -850 -850 850 850))
+      (attach off)
+    )
+    (padstack "Via[0-1]_600:400_um"
+      (shape (circle F.Cu 600))
+      (shape (circle B.Cu 600))
+      (attach off)
+    )
+  )
+  (network
+    (net GANG11
+      (pins J1-1 U1-1)
+    )
+    (net WIPE1
+      (pins J1-2 U1-2)
+    )
+    (net GANG13
+      (pins J1-3 U1-3)
+    )
+    (net GANG21
+      (pins J1-4 U1-4)
+    )
+    (net WIPE2
+      (pins J1-5 U1-5)
+    )
+    (net GANG23
+      (pins J1-6 U1-6)
+    )
+    (net DPDT1
+      (pins J1-7 U1-7)
+    )
+    (net DPDT2
+      (pins J1-8 U1-8)
+    )
+    (net DPDT3
+      (pins J1-9 U1-9)
+    )
+    (net DPDT4
+      (pins J1-10 U1-10)
+    )
+    (net DPDT5
+      (pins J1-11 U1-11)
+    )
+    (net DPDT6
+      (pins J1-12 U1-12)
+    )
+    (net GND
+      (pins J1-13 U1-13)
+    )
+    (net "Net-(J1-Pad14)"
+      (pins J1-14)
+    )
+    (class kicad_default "" DPDT1 DPDT2 DPDT3 DPDT4 DPDT5 DPDT6 GANG11 GANG13
+      GANG21 GANG23 GND "Net-(J1-Pad14)" WIPE1 WIPE2
+      (circuit
+        (use_via Via[0-1]_600:400_um)
+      )
+      (rule
+        (width 250)
+        (clearance 200.1)
+      )
+    )
+  )
+  (wiring
+  )
+)

@@ -1,0 +1,124 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:switches
+LIBS:relays
+LIBS:motors
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:pdb183gtr21
+LIBS:PotBreakout-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L PDB183GTR21 U1
+U 1 1 5B6BD6DE
+P 4700 4450
+F 0 "U1" H 5550 5750 60  0000 C CNN
+F 1 "PDB183GTR21" H 5550 5850 60  0000 C CNN
+F 2 "" H 5550 5850 60  0001 C CNN
+F 3 "" H 5550 5850 60  0001 C CNN
+	1    4700 4450
+	1    0    0    -1  
+$EndComp
+Text GLabel 5000 2800 0    60   Input ~ 0
+GANG11
+Text GLabel 5000 2900 0    60   Input ~ 0
+GANG21
+Text GLabel 6100 2800 2    60   Input ~ 0
+GANG13
+Text GLabel 6100 2900 2    60   Input ~ 0
+GANG23
+Text GLabel 6100 3200 2    60   Input ~ 0
+DPDT4
+Text GLabel 6100 3300 2    60   Input ~ 0
+DPDT5
+Text GLabel 6100 3400 2    60   Input ~ 0
+DPDT6
+Text GLabel 5000 3200 0    60   Input ~ 0
+DPDT1
+Text GLabel 5000 3300 0    60   Input ~ 0
+DPDT2
+Text GLabel 5000 3400 0    60   Input ~ 0
+DPDT3
+Text GLabel 5400 2300 1    60   Input ~ 0
+WIPE1
+Text GLabel 5700 2300 1    60   Input ~ 0
+WIPE2
+Text GLabel 5550 3850 3    60   Input ~ 0
+GND
+$Comp
+L Conn_02x07_Odd_Even J1
+U 1 1 5B6C6157
+P 7850 3100
+F 0 "J1" H 7900 3500 50  0000 C CNN
+F 1 "Conn_02x07_Odd_Even" H 7900 2700 50  0000 C CNN
+F 2 "" H 7850 3100 50  0001 C CNN
+F 3 "" H 7850 3100 50  0001 C CNN
+	1    7850 3100
+	1    0    0    -1  
+$EndComp
+Text GLabel 7650 2800 0    60   Input ~ 0
+GANG11
+Text GLabel 7650 2900 0    60   Input ~ 0
+GANG13
+Text GLabel 8150 2800 2    60   Input ~ 0
+WIPE1
+Text GLabel 8150 2900 2    60   Input ~ 0
+GANG21
+Text GLabel 7650 3000 0    60   Input ~ 0
+WIPE2
+Text GLabel 8150 3000 2    60   Input ~ 0
+GANG23
+Text GLabel 7650 3100 0    60   Input ~ 0
+DPDT1
+Text GLabel 7650 3200 0    60   Input ~ 0
+DPDT3
+Text GLabel 8150 3200 2    60   Input ~ 0
+DPDT4
+Text GLabel 8150 3300 2    60   Input ~ 0
+DPDT6
+Text GLabel 8150 3100 2    60   Input ~ 0
+DPDT2
+Text GLabel 7650 3300 0    60   Input ~ 0
+DPDT5
+Text GLabel 7650 3400 0    60   Input ~ 0
+GND
+$EndSCHEMATC
