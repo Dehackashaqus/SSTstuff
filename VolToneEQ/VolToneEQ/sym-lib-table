@@ -1,4 +1,8 @@
 (sym_lib_table
   (lib (name BreakoutInputs)(type Legacy)(uri C:/Users/daw0043/Documents/GitHub/SSTstuff/VolToneEQ/VolToneEQ/BreakoutInputs.lib)(options "")(descr ""))
   (lib (name 4pdt)(type Legacy)(uri C:/Users/daw0043/Documents/GitHub/SSTstuff/VolToneEQ/VolToneEQ/4pdt.lib)(options "")(descr ""))
+  (lib (name 15mmKEMET)(type Legacy)(uri C:/Users/Aaron/Documents/GitHub/SSTstuff/VolToneEQ/VolToneEQ/15mmKEMET.lib)(options "")(descr ""))
+  (lib (name 6mmKEMET)(type Legacy)(uri C:/Users/Aaron/Documents/GitHub/SSTstuff/VolToneEQ/VolToneEQ/6mmKEMET.lib)(options "")(descr ""))
+  (lib (name 3WAY)(type Legacy)(uri C:/Users/Aaron/Documents/GitHub/SSTstuff/VolToneEQ/VolToneEQ/3WAY.lib)(options "")(descr ""))
+  (lib (name 6PDT)(type Legacy)(uri C:/Users/Aaron/Documents/GitHub/SSTstuff/VolToneEQ/VolToneEQ/6PDT.lib)(options "")(descr ""))
 )
