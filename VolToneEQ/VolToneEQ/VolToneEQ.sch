@@ -88,91 +88,29 @@ NGRN
 $Comp
 L 4pdt:4pdtswitch U?
 U 1 1 5B812BE0
-P 4050 2350
-F 0 "U?" H 4450 2500 50  0000 C CNN
-F 1 "4pdtswitch" H 4450 2450 50  0000 C CNN
-F 2 "" H 4050 2350 50  0001 C CNN
-F 3 "" H 4050 2350 50  0001 C CNN
-	1    4050 2350
+P 4050 2450
+F 0 "U?" H 4300 2750 50  0000 C CNN
+F 1 "4pdtswitch" H 4300 2700 50  0000 C CNN
+F 2 "" H 4050 2450 50  0001 C CNN
+F 3 "" H 4050 2450 50  0001 C CNN
+	1    4050 2450
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3700 1800 3600 1800
-Wire Wire Line
-	3600 1800 3600 2100
-Wire Wire Line
-	3600 2100 4350 2100
-Wire Wire Line
-	4350 2100 4350 2000
-Wire Wire Line
-	4350 2000 4300 2000
-Wire Wire Line
-	4300 1800 4400 1800
-Wire Wire Line
-	4400 1800 4400 2150
-Wire Wire Line
-	4400 2150 3700 2150
-Wire Wire Line
-	3700 2150 3700 2000
-Wire Wire Line
-	4600 1800 4550 1800
-Wire Wire Line
-	4550 1800 4550 2100
-Wire Wire Line
-	4550 2100 5250 2100
-Wire Wire Line
-	5250 2100 5250 2000
-Wire Wire Line
-	5250 2000 5200 2000
-Wire Wire Line
-	5200 1800 5300 1800
-Wire Wire Line
-	5300 1800 5300 2150
-Wire Wire Line
-	5300 2150 4500 2150
-Wire Wire Line
-	4500 2150 4500 2000
-Wire Wire Line
-	4500 2000 4600 2000
-Text GLabel 3700 1650 1    50   Input ~ 0
+Text GLabel 3750 1550 0    50   Input ~ 0
 BRRED
-Connection ~ 3700 1800
-Wire Wire Line
-	3700 1650 3700 1800
-Text GLabel 4300 1650 1    50   Input ~ 0
+Text GLabel 4800 1550 2    50   Input ~ 0
 BRGRN
-Wire Wire Line
-	4300 1650 4300 1800
-Connection ~ 4300 1800
-Text GLabel 4600 1650 1    50   Input ~ 0
+Text GLabel 3750 1850 0    50   Input ~ 0
 NRED
-Text GLabel 5200 1650 1    50   Input ~ 0
+Text GLabel 4800 1850 2    50   Input ~ 0
 NGRN
-Wire Wire Line
-	4600 1650 4600 1800
-Connection ~ 4600 1800
-Wire Wire Line
-	5200 1650 5200 1800
-Connection ~ 5200 1800
-Text GLabel 4400 1650 1    50   Input ~ 0
+Text GLabel 4800 1650 2    50   Input ~ 0
 BRGRN2
-Text GLabel 4500 1650 1    50   Input ~ 0
+Text GLabel 3750 1950 0    50   Input ~ 0
 NRED2
-Wire Wire Line
-	4400 1650 4400 1750
-Wire Wire Line
-	4400 1750 4350 1750
-Wire Wire Line
-	4350 1750 4350 1900
-Wire Wire Line
-	4350 1900 4300 1900
-Wire Wire Line
-	4500 1650 4500 1900
-Wire Wire Line
-	4500 1900 4600 1900
-Text GLabel 3700 1900 0    50   Input ~ 0
+Text GLabel 3750 1650 0    50   Input ~ 0
 BRRED2
-Text GLabel 5200 1900 2    50   Input ~ 0
+Text GLabel 4800 1950 2    50   Input ~ 0
 NGRN2
 Text GLabel 4400 950  3    50   Input ~ 0
 GND
@@ -218,8 +156,6 @@ Wire Wire Line
 	2150 2600 2200 2600
 Wire Wire Line
 	2850 2200 2850 2300
-Wire Wire Line
-	2850 3100 1950 3100
 Wire Wire Line
 	1950 3100 1950 3700
 Wire Wire Line
@@ -358,8 +294,6 @@ Connection ~ 6250 4100
 Wire Wire Line
 	6250 3700 5850 3700
 Wire Wire Line
-	5850 3700 5850 2900
-Wire Wire Line
 	5850 2900 6950 2900
 Wire Wire Line
 	6950 2900 6950 2400
@@ -472,17 +406,6 @@ Wire Wire Line
 	1950 1450 1950 2200
 Text GLabel 4550 4300 1    50   Input ~ 0
 GND
-$Comp
-L 6PDT:6PDTswitch U?
-U 1 1 5B8F1839
-P 4550 6250
-F 0 "U?" H 4928 7171 50  0000 L CNN
-F 1 "6PDTswitch" H 4928 7080 50  0000 L CNN
-F 2 "" V 4900 6800 50  0001 C CNN
-F 3 "" V 4900 6800 50  0001 C CNN
-	1    4550 6250
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2850 1450 2850 1950
 Wire Wire Line
@@ -525,24 +448,22 @@ Text GLabel 3000 1950 1    50   Input ~ 0
 BVINTRAD
 Text GLabel 1850 2200 1    50   Input ~ 0
 BVOUTTRAD
-Text GLabel 4150 5100 1    50   Input ~ 0
+Text GLabel 4150 5150 2    50   Input ~ 0
 BVIN
-Text GLabel 4150 5650 3    50   Input ~ 0
+Text GLabel 3550 5150 0    50   Input ~ 0
 BVOUT
-Text GLabel 4050 5100 1    50   Input ~ 0
+Text GLabel 4150 5050 2    50   Input ~ 0
 BVINTRAD
-Text GLabel 4050 5650 3    50   Input ~ 0
+Text GLabel 3550 5050 0    50   Input ~ 0
 BVOUTTRAD
 Wire Wire Line
-	4250 5100 4250 5000
+	4150 5250 4250 5250
 Wire Wire Line
-	4250 5000 3900 5000
+	4250 5250 4250 4900
 Wire Wire Line
-	3900 5000 3900 5700
+	3500 4900 3500 5250
 Wire Wire Line
-	3900 5700 4250 5700
-Wire Wire Line
-	4250 5700 4250 5650
+	3500 5250 3550 5250
 $Comp
 L 6mmKEMET:KEMET470p5mm U?
 U 1 1 5B918DDF
@@ -584,22 +505,122 @@ Wire Wire Line
 	5750 2200 5900 2200
 Text GLabel 5900 2050 1    50   Input ~ 0
 NVOUT
-Text GLabel 4450 5100 1    50   Input ~ 0
+Text GLabel 4150 5450 2    50   Input ~ 0
 NVIN
-Text GLabel 4350 5100 1    50   Input ~ 0
+Text GLabel 4150 5350 2    50   Input ~ 0
 NVINTRAD
-Text GLabel 4450 5650 3    50   Input ~ 0
+Text GLabel 3550 5450 0    50   Input ~ 0
 NVOUT
-Text GLabel 4350 5650 3    50   Input ~ 0
+Text GLabel 3550 5350 0    50   Input ~ 0
 NVOUTTRAD
 Wire Wire Line
-	4550 5100 4550 4900
+	4150 5550 4350 5550
 Wire Wire Line
-	4550 4900 3800 4900
+	4350 5550 4350 4800
 Wire Wire Line
-	3800 4900 3800 5800
+	3400 4800 3400 5550
 Wire Wire Line
-	3800 5800 4550 5800
+	3400 5550 3550 5550
 Wire Wire Line
-	4550 5800 4550 5650
+	3950 1750 3850 1750
+Wire Wire Line
+	3850 1750 3850 1450
+Wire Wire Line
+	3850 1450 4600 1450
+Wire Wire Line
+	4600 1450 4600 1550
+Wire Wire Line
+	4600 1550 4550 1550
+Wire Wire Line
+	4550 1750 4650 1750
+Wire Wire Line
+	4650 1750 4650 1400
+Wire Wire Line
+	4650 1400 3900 1400
+Wire Wire Line
+	3900 1400 3900 1550
+Wire Wire Line
+	3900 1550 3950 1550
+Wire Wire Line
+	3900 1550 3750 1550
+Connection ~ 3900 1550
+Wire Wire Line
+	4800 1550 4600 1550
+Connection ~ 4600 1550
+Wire Wire Line
+	3950 1650 3750 1650
+Wire Wire Line
+	4800 1650 4550 1650
+Wire Wire Line
+	3950 1850 3900 1850
+Wire Wire Line
+	3900 1850 3900 2250
+Wire Wire Line
+	3900 2250 4650 2250
+Wire Wire Line
+	4650 2250 4650 1850
+Wire Wire Line
+	4650 1850 4550 1850
+Wire Wire Line
+	4550 2050 4600 2050
+Wire Wire Line
+	4600 2300 3950 2300
+Wire Wire Line
+	3950 2300 3950 2050
+Wire Wire Line
+	4600 2050 4600 2300
+Wire Wire Line
+	4650 1850 4800 1850
+Connection ~ 4650 1850
+Wire Wire Line
+	3750 1850 3900 1850
+Connection ~ 3900 1850
+Wire Wire Line
+	3750 1950 3950 1950
+Wire Wire Line
+	4800 1950 4550 1950
+$Comp
+L 4pdt:4pdtswitch U?
+U 1 1 5B8E51F2
+P 3650 5950
+F 0 "U?" V 3896 6272 50  0000 R CNN
+F 1 "4pdtswitch" V 3805 6272 50  0000 R CNN
+F 2 "" H 3650 5950 50  0001 C CNN
+F 3 "" H 3650 5950 50  0001 C CNN
+	1    3650 5950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4350 4800 3400 4800
+Wire Wire Line
+	4250 4900 3500 4900
+Text Notes 1600 5350 0    50   ~ 0
+These 2 switches control traditional\nvs 3 band EQ selection
+$Comp
+L 4pdt:4pdtswitch U?
+U 1 1 5B924358
+P 5350 5950
+F 0 "U?" H 5550 6250 50  0000 C CNN
+F 1 "4pdtswitch" H 5550 6150 50  0000 C CNN
+F 2 "" H 5350 5950 50  0001 C CNN
+F 3 "" H 5350 5950 50  0001 C CNN
+	1    5350 5950
+	1    0    0    -1  
+$EndComp
+Text GLabel 2850 3100 0    50   Input ~ 0
+BTONE
+Text GLabel 1950 3100 0    50   Input ~ 0
+BTONEIN
+Text GLabel 5850 3700 0    50   Input ~ 0
+NTONEIN
+Text GLabel 5850 2900 0    50   Input ~ 0
+NTONE
+Text GLabel 5250 5150 0    50   Input ~ 0
+BTONE
+Text GLabel 5250 5050 0    50   Input ~ 0
+BTONEIN
+Text GLabel 5850 5050 2    50   Input ~ 0
+NTONEIN
+Text GLabel 5850 5150 2    50   Input ~ 0
+NTONE
 $EndSCHEMATC

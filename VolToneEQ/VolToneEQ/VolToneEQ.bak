@@ -362,7 +362,7 @@ Wire Wire Line
 Wire Wire Line
 	5850 2900 6950 2900
 Wire Wire Line
-	6950 2900 6950 2200
+	6950 2900 6950 2400
 Wire Wire Line
 	6750 2100 6950 2100
 Wire Wire Line
@@ -421,7 +421,7 @@ Wire Wire Line
 Wire Wire Line
 	6850 2200 6750 2200
 Wire Wire Line
-	6150 1350 6150 2200
+	6150 1350 6150 1600
 Wire Wire Line
 	6150 2200 6250 2200
 Text Notes 7200 1850 0    50   ~ 0
@@ -450,19 +450,15 @@ Wire Wire Line
 Wire Wire Line
 	5700 2400 5700 2200
 Wire Wire Line
-	5700 2200 5900 2200
-Connection ~ 6150 2200
+	5700 2200 5750 2200
 Text GLabel 1800 2500 0    50   Input ~ 0
 BROUT
 Wire Wire Line
 	2200 2500 1800 2500
-Text GLabel 5900 2050 1    50   Input ~ 0
+Text GLabel 5750 2050 1    50   Input ~ 0
 NOUT
 Wire Wire Line
 	5900 2050 5900 2200
-Connection ~ 5900 2200
-Wire Wire Line
-	5900 2200 6150 2200
 Text GLabel 4250 4300 1    50   Input ~ 0
 BROUT
 Text GLabel 4450 4300 1    50   Input ~ 0
@@ -470,8 +466,6 @@ NOUT
 Text GLabel 4350 4300 1    50   Input ~ 0
 TOJACK
 Connection ~ 6850 2200
-Wire Wire Line
-	6950 2200 6850 2200
 Wire Wire Line
 	1950 1450 2200 1450
 Wire Wire Line
@@ -564,4 +558,48 @@ Wire Wire Line
 	6150 1350 6250 1350
 Wire Wire Line
 	6800 1350 6850 1350
+Wire Wire Line
+	6850 2400 6950 2400
+Connection ~ 6850 2400
+Text GLabel 7150 2400 2    50   Input ~ 0
+NVIN
+Text GLabel 7150 2200 2    50   Input ~ 0
+NVINTRAD
+Wire Wire Line
+	7150 2400 6950 2400
+Connection ~ 6950 2400
+Wire Wire Line
+	6850 2200 7150 2200
+Wire Wire Line
+	6150 1600 6000 1600
+Connection ~ 6150 1600
+Wire Wire Line
+	6150 1600 6150 2200
+Text GLabel 6000 1600 0    50   Input ~ 0
+NVOUTTRAD
+Wire Wire Line
+	5750 2050 5750 2200
+Connection ~ 5750 2200
+Wire Wire Line
+	5750 2200 5900 2200
+Text GLabel 5900 2050 1    50   Input ~ 0
+NVOUT
+Text GLabel 4450 5100 1    50   Input ~ 0
+NVIN
+Text GLabel 4350 5100 1    50   Input ~ 0
+NVINTRAD
+Text GLabel 4450 5650 3    50   Input ~ 0
+NVOUT
+Text GLabel 4350 5650 3    50   Input ~ 0
+NVOUTTRAD
+Wire Wire Line
+	4550 5100 4550 4900
+Wire Wire Line
+	4550 4900 3800 4900
+Wire Wire Line
+	3800 4900 3800 5800
+Wire Wire Line
+	3800 5800 4550 5800
+Wire Wire Line
+	4550 5800 4550 5650
 $EndSCHEMATC
