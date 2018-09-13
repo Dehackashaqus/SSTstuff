@@ -1,4 +1,4 @@
-Circuit: * C:\Users\Aaron\Documents\GitHub\SSTstuff\SST1Circuit.asc
+Circuit: * C:\Users\daw0043\Documents\GitHub\SSTstuff\SST1Circuit.asc
 
 C4: both pins shorted together -- ignoring.
 R2: both pins shorted together -- ignoring.
@@ -21,38 +21,42 @@ Gmin = 0.00132923
 Gmin = 0.000142725
 Gmin = 1.5325e-005
 Gmin = 1.6455e-006
+Gmin = 1.76685e-007
 vernier = 0.5
-Gmin = 3.40827e-007
-vernier = 0.666667
-vernier = 0.888888
-Gmin = 7.76686e-008
+vernier = 0.25
+vernier = 0.333333
+Gmin = 1.20446e-007
+vernier = 0.444444
+Gmin = 4.76644e-008
+vernier = 0.592592
+vernier = 0.790123
+Gmin = 1.09041e-008
 vernier = 1
-Gmin = 9.33136e-009
-Gmin = 1.00195e-009
-Gmin = 1.07583e-010
-Gmin = 1.15517e-011
-Gmin = 1.24035e-012
-Gmin = 1.33182e-013
+Gmin = 1.33156e-009
+Gmin = 1.42975e-010
+Gmin = 1.53518e-011
+Gmin = 1.64839e-012
+Gmin = 1.76994e-013
 Gmin = 0
 Gmin stepping succeeded in finding the operating point.
 
 
-Date: Tue Sep 11 23:03:55 2018
-Total elapsed time: 0.491 seconds.
+Date: Thu Sep 13 16:01:19 2018
+Total elapsed time: 0.647 seconds.
 
 tnom = 27
 temp = 27
 method = modified trap
-totiter = 14701
-traniter = 14122
-tranpoints = 6659
-accept = 4238
-rejected = 2421
-matrix size = 104
-fillins = 42
+totiter = 30101
+traniter = 29401
+tranpoints = 10746
+accept = 7329
+rejected = 3417
+matrix size = 105
+fillins = 43
 solver = Normal
-Thread vector: 24.4/11.6[3] 9.0/5.9[3] 3.0/2.8[1] 0.6/1.0[1]  2592/500
-Matrix Compiler1: 7.01 KB object code size  2.6/1.4/[1.0]
-Matrix Compiler2: off  [0.7]/1.5/1.2
+Thread vector: 12.3/7.3[3] 4.3/2.3[3] 1.9/1.5[3] 0.2/0.7[1]  2592/500
+Matrix Compiler1: 6.98 KB object code size  1.0/0.4/[0.3]
+Matrix Compiler2: 7.43 KB object code size  0.5/0.9/[0.4]
 
 

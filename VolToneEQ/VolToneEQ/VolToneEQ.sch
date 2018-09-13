@@ -2,7 +2,7 @@ EESchema Schematic File Version 4
 LIBS:VolToneEQ-cache
 EELAYER 26 0
 EELAYER END
-$Descr A4 11693 8268
+$Descr B 17000 11000
 encoding utf-8
 Sheet 1 1
 Title ""
@@ -397,8 +397,6 @@ Text GLabel 4250 4300 1    50   Input ~ 0
 BROUT
 Text GLabel 4450 4300 1    50   Input ~ 0
 NOUT
-Text GLabel 4350 4300 1    50   Input ~ 0
-TOJACK
 Connection ~ 6850 2200
 Wire Wire Line
 	1950 1450 2200 1450
@@ -579,34 +577,12 @@ Wire Wire Line
 	3750 1950 3950 1950
 Wire Wire Line
 	4800 1950 4550 1950
-$Comp
-L 4pdt:4pdtswitch U?
-U 1 1 5B8E51F2
-P 3650 5950
-F 0 "U?" V 3896 6272 50  0000 R CNN
-F 1 "4pdtswitch" V 3805 6272 50  0000 R CNN
-F 2 "" H 3650 5950 50  0001 C CNN
-F 3 "" H 3650 5950 50  0001 C CNN
-	1    3650 5950
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4350 4800 3400 4800
 Wire Wire Line
 	4250 4900 3500 4900
 Text Notes 1600 5350 0    50   ~ 0
 These 2 switches control traditional\nvs 3 band EQ selection
-$Comp
-L 4pdt:4pdtswitch U?
-U 1 1 5B924358
-P 5350 5950
-F 0 "U?" H 5550 6250 50  0000 C CNN
-F 1 "4pdtswitch" H 5550 6150 50  0000 C CNN
-F 2 "" H 5350 5950 50  0001 C CNN
-F 3 "" H 5350 5950 50  0001 C CNN
-	1    5350 5950
-	1    0    0    -1  
-$EndComp
 Text GLabel 2850 3100 0    50   Input ~ 0
 BTONE
 Text GLabel 1950 3100 0    50   Input ~ 0
@@ -623,4 +599,38 @@ Text GLabel 5850 5050 2    50   Input ~ 0
 NTONEIN
 Text GLabel 5850 5150 2    50   Input ~ 0
 NTONE
+$Comp
+L 4pdt:4pdtswitch U?
+U 1 1 5B924358
+P 5350 5950
+F 0 "U?" H 5550 6250 50  0000 C CNN
+F 1 "4pdtswitch" H 5550 6150 50  0000 C CNN
+F 2 "" H 5350 5950 50  0001 C CNN
+F 3 "" H 5350 5950 50  0001 C CNN
+	1    5350 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4pdt:4pdtswitch U?
+U 1 1 5B8E51F2
+P 3650 5950
+F 0 "U?" H 3900 6250 50  0000 R CNN
+F 1 "4pdtswitch" H 4000 6150 50  0000 R CNN
+F 2 "" H 3650 5950 50  0001 C CNN
+F 3 "" H 3650 5950 50  0001 C CNN
+	1    3650 5950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5250 5350 5200 5350
+Wire Wire Line
+	5200 5350 5200 5800
+Wire Wire Line
+	5200 5800 5900 5800
+Wire Wire Line
+	5900 5800 5900 5350
+Wire Wire Line
+	5900 5350 5850 5350
+Text GLabel 4350 4300 1    50   Input ~ 0
+OUT
 $EndSCHEMATC
