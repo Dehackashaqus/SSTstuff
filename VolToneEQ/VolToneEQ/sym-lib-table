@@ -5,4 +5,5 @@
   (lib (name 6mmKEMET)(type Legacy)(uri C:/Users/Aaron/Documents/GitHub/SSTstuff/VolToneEQ/VolToneEQ/6mmKEMET.lib)(options "")(descr ""))
   (lib (name 3WAY)(type Legacy)(uri C:/Users/Aaron/Documents/GitHub/SSTstuff/VolToneEQ/VolToneEQ/3WAY.lib)(options "")(descr ""))
   (lib (name 6PDT)(type Legacy)(uri C:/Users/Aaron/Documents/GitHub/SSTstuff/VolToneEQ/VolToneEQ/6PDT.lib)(options "")(descr ""))
+  (lib (name 2mm330k)(type Legacy)(uri C:/Users/Aaron/Documents/GitHub/SSTstuff/VolToneEQ/VolToneEQ/2mm330k.lib)(options "")(descr ""))
 )
