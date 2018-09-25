@@ -1,0 +1,7 @@
+(fp_lib_table
+  (lib (name 6pdtFP)(type KiCad)(uri ${KIPRJMOD}/6pdtFP.pretty)(options "")(descr ""))
+  (lib (name 4pdtFP)(type KiCad)(uri ${KIPRJMOD}/4pdtFP.pretty)(options "")(descr ""))
+  (lib (name dpdtPWR)(type KiCad)(uri ${KIPRJMOD}/dpdtPWR.pretty)(options "")(descr ""))
+  (lib (name TrebBldDIP)(type KiCad)(uri ${KIPRJMOD}/TrebBldDIP.pretty)(options "")(descr ""))
+  (lib (name 9vHolder)(type KiCad)(uri ${KIPRJMOD}/9vHolder.pretty)(options "")(descr ""))
+)
