@@ -1881,7 +1881,7 @@ $EndComp
 Wire Wire Line
 	6250 2100 6200 2100
 Wire Wire Line
-	6200 2100 6200 2000
+	6200 2100 6200 1650
 Wire Wire Line
 	6200 1650 6350 1650
 Wire Wire Line
@@ -1903,7 +1903,7 @@ Text GLabel 7100 2000 2    50   Input ~ 0
 ODMIDOUT
 Text GLabel 7350 7000 1    50   Input ~ 0
 Vref2
-Text GLabel 6200 2000 0    50   Input ~ 0
+Text GLabel 6100 2000 0    50   Input ~ 0
 ODMIDGND
 Text GLabel 13750 8500 3    50   Input ~ 0
 Vref2
@@ -2329,9 +2329,6 @@ Connection ~ 6150 1600
 Text GLabel 6750 6450 3    50   Input ~ 0
 PWRGND
 Wire Wire Line
-	6250 2000 6200 2000
+	6250 2000 6100 2000
 Connection ~ 6250 2000
-Connection ~ 6200 2000
-Wire Wire Line
-	6200 2000 6200 1650
 $EndSCHEMATC
