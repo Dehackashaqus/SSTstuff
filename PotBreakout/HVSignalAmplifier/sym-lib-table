@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name PowerOpAmp)(type Legacy)(uri C:/Users/Aaron/Documents/GitHub/SSTstuff/PotBreakout/HVSignalAmplifier/PowerOpAmp.lib)(options "")(descr ""))
+)
