@@ -4,4 +4,5 @@
   (lib (name dpdtPWR)(type KiCad)(uri ${KIPRJMOD}/dpdtPWR.pretty)(options "")(descr ""))
   (lib (name TrebBldDIP)(type KiCad)(uri ${KIPRJMOD}/TrebBldDIP.pretty)(options "")(descr ""))
   (lib (name 9vHolder)(type KiCad)(uri ${KIPRJMOD}/9vHolder.pretty)(options "")(descr ""))
+  (lib (name TEST)(type KiCad)(uri ${KIPRJMOD}/TEST.pretty)(options "")(descr ""))
 )
