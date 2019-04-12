@@ -26,47 +26,42 @@ Gmin = 0.00132923
 Gmin = 0.000142725
 Gmin = 1.5325e-005
 Gmin = 1.6455e-006
-Gmin = 1.76685e-007
 vernier = 0.5
+Gmin = 2.7607e-007
 vernier = 0.25
-vernier = 0.125
-Gmin = 1.05016e-007
-vernier = 0.166667
-vernier = 0.222222
-Gmin = 7.10085e-008
-vernier = 0.296296
-Gmin = 3.79083e-008
-vernier = 0.395061
-vernier = 0.526748
-Gmin = 1.38386e-008
-vernier = 0.702331
-vernier = 0.936441
-Gmin = 2.93115e-009
+vernier = 0.333333
+Gmin = 1.54418e-007
+vernier = 0.444444
+Gmin = 5.95805e-008
+vernier = 0.592592
+vernier = 0.790123
+Gmin = 1.26465e-008
 vernier = 1
-Gmin = 3.3552e-010
-Gmin = 3.60262e-011
-Gmin = 3.86829e-012
-Gmin = 4.15354e-013
+Gmin = 1.47951e-009
+Gmin = 1.58861e-010
+Gmin = 1.70576e-011
+Gmin = 1.83154e-012
+Gmin = 1.9666e-013
 Gmin = 0
 Gmin stepping succeeded in finding the operating point.
 
 
-Date: Tue Sep 25 01:53:37 2018
-Total elapsed time: 6.634 seconds.
+Date: Sat Oct 06 16:14:35 2018
+Total elapsed time: 2.513 seconds.
 
 tnom = 27
 temp = 27
 method = modified trap
-totiter = 89665
-traniter = 88692
-tranpoints = 29447
-accept = 20053
-rejected = 9394
+totiter = 19789
+traniter = 19039
+tranpoints = 7748
+accept = 5025
+rejected = 2723
 matrix size = 138
-fillins = 389
+fillins = 409
 solver = Normal
-Thread vector: 64.7/32.7[4] 18.9/9.2[4] 8.2/5.3[4] 0.8/5.1[1]  2592/500
-Matrix Compiler1: 55.17 KB object code size  13.6/7.5/[6.0]
-Matrix Compiler2: 16.97 KB object code size  1.9/3.2/[1.5]
+Thread vector: 67.6/25.4[4] 18.8/12.4[4] 8.3/4.6[4] 0.8/5.6[1]  2592/500
+Matrix Compiler1: 58.67 KB object code size  13.7/7.9/[5.9]
+Matrix Compiler2: 17.34 KB object code size  1.7/2.7/[1.5]
 
 

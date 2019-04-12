@@ -1881,8 +1881,6 @@ $EndComp
 Wire Wire Line
 	6250 2100 6200 2100
 Wire Wire Line
-	6200 2100 6200 2000
-Wire Wire Line
 	6200 1650 6350 1650
 Wire Wire Line
 	6250 2000 6250 1750
@@ -1903,7 +1901,7 @@ Text GLabel 7100 2000 2    50   Input ~ 0
 ODMIDOUT
 Text GLabel 7350 7000 1    50   Input ~ 0
 Vref2
-Text GLabel 6200 2000 0    50   Input ~ 0
+Text GLabel 5600 2000 0    50   Input ~ 0
 ODMIDGND
 Text GLabel 13750 8500 3    50   Input ~ 0
 Vref2
@@ -2161,17 +2159,17 @@ L Device:R_POT VOL1
 U 1 1 5CE97253
 P 13750 7600
 F 0 "VOL1" H 13680 7554 50  0000 R CNN
-F 1 "50k" H 13680 7645 50  0000 R CNN
+F 1 "100k" H 13680 7645 50  0000 R CNN
 F 2 "Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical" H 13750 7600 50  0001 C CNN
 F 3 "~" H 13750 7600 50  0001 C CNN
 	1    13750 7600
 	1    0    0    1   
 $EndComp
 Wire Wire Line
-	13750 7750 13750 8400
+	13750 7750 13750 7800
 Connection ~ 13750 8400
 Wire Wire Line
-	13750 7200 13750 7450
+	13750 7200 13750 7400
 Wire Wire Line
 	13900 7600 14100 7600
 Connection ~ 14100 7600
@@ -2329,9 +2327,33 @@ Connection ~ 6150 1600
 Text GLabel 6750 6450 3    50   Input ~ 0
 PWRGND
 Wire Wire Line
-	6250 2000 6200 2000
-Connection ~ 6250 2000
-Connection ~ 6200 2000
+	6200 1650 6200 2100
 Wire Wire Line
-	6200 2000 6200 1650
+	6250 2000 5600 2000
+Connection ~ 6250 2000
+$Comp
+L Device:R R36
+U 1 1 5BB9BC05
+P 13300 7600
+F 0 "R36" H 13370 7646 50  0000 L CNN
+F 1 "100k" H 13300 7450 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 13230 7600 50  0001 C CNN
+F 3 "~" H 13300 7600 50  0001 C CNN
+	1    13300 7600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13300 7450 13300 7400
+Wire Wire Line
+	13300 7400 13750 7400
+Connection ~ 13750 7400
+Wire Wire Line
+	13750 7400 13750 7450
+Wire Wire Line
+	13300 7750 13300 7800
+Wire Wire Line
+	13300 7800 13750 7800
+Connection ~ 13750 7800
+Wire Wire Line
+	13750 7800 13750 8400
 $EndSCHEMATC
